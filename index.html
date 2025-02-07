@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rose Day Gift</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      height: 100vh; /* Full viewport height */
+      background: #ffe6e6; /* Faded pink background */
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Button Styling */
+    .rose-button {
+      position: relative;
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff; /* White text */
+      background: #ff4d6a; /* Rose red color */
+      border: none;
+      border-radius: 30px; /* Rounded corners */
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      transition: all 0.3s ease; /* Smooth hover effect */
+    }
+
+    /* Hover Effect */
+    .rose-button:hover {
+      background: #ff1744; /* Darker rose red on hover */
+      transform: scale(1.1); /* Slightly enlarge the button */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    }
+
+    /* Rose Icon (Optional) */
+    .rose-button::before {
+      content: '🌹 ';
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Button -->
+  <button class="rose-button" onclick="window.location.href='1.html'">Gift</button>
+</body>
+</html>
